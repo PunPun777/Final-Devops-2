@@ -9,12 +9,12 @@
 ## Step 3:  Understanding the POM File
 - The POM (Project Object Model) file is the heart of a Maven project. It is an XML file that contains all the configuration details about the project.
 - Key element in pom.xml:
-  - <groupId>: The group or organization that the project belongs to.
-  - <artifactId>: The name of the project or artifact.
-  - <version>: The version of the project 
-  - <packaging>: Type of artifact, e.g., jar, war, pom, etc.
-  - <dependencies>: A list of dependencies the project requires.
-  - <build>: Specifies the build settings, such as plugins to use.
+  - `<groupId>`: The group or organization that the project belongs to.
+  - `<artifactId>`: The name of the project or artifact.
+  - `<version>`: The version of the project 
+  - `<packaging>`: Type of artifact, e.g., jar, war, pom, etc.
+  - `<dependencies>`: A list of dependencies the project requires.
+  - `<build>`: Specifies the build settings, such as plugins to use.
 
 ## Step 4: Dependency Management
 - Maven uses the <dependencies> tag in the pom.xml to manage external libraries or dependencies that your project needs. 
